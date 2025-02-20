@@ -1,6 +1,6 @@
 (async () => {
   async function newAdvice() {
-    const url = "https://api.adviceslip.com/advice";
+    const url = `https://api.adviceslip.com/advice?timestamp=${new Date().getTime()}`;
     const response = await fetch(url);
     return await response.json();
   }
