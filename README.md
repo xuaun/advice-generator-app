@@ -49,8 +49,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://your-solution-url.com) and [my Frontend Mentor solution page](https://your-live-site-url.com)
-- Live Site URL: [Live Page](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/xuaun/advice-generator-app) and [my Frontend Mentor solution page](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-1fPkZITIgm)
+- Live Site URL: [Live Page](https://xuaun.github.io/advice-generator-app/)
 
 ## My process
 
@@ -90,7 +90,7 @@ async function newAdvice() {
 
 ## Contexto
 
-Esta é uma solução para o [desafio de um aplicativo gerador de conselhos no Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
+Esta é uma solução para o [desafio de um aplicativo gerador de conselhos no Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
 > Seu desafio é criar este aplicativo gerador de conselhos usando a [Advice Slip API](https://api.adviceslip.com/) e fazer com que ele tenha a aparência mais próxima possível do design.
 
@@ -131,8 +131,8 @@ Os usuários devem ser capazes de:
 
 ### <p id="links-pt">Links</p>
 
-- Link da solução: [Repositório no GitHub](https://github.com/xuaun/fylo-data-storage-component) e a [página da minha solução no Frontend Mentor](https://your-live-site-url.com)
-- Site com a solução: [Página do projeto no ar](https://your-live-site-url.com)
+- Link da solução: [Repositório no GitHub](https://github.com/xuaun/advice-generator-app) e a [página da minha solução no Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-1fPkZITIgm)
+- Site com a solução: [Página do projeto no ar](https://xuaun.github.io/advice-generator-app/)
 
 ## Meu processo
 
