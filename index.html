@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Advice generator app challenge from Frontend Mentor - coded by João Víctor de Araujo Lima"
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, coding, front-end, challenge, projects"
+    />
+    <meta name="author" content="João Víctor de Araujo Lima" />
+    <meta name="language" content="English" />
+    <meta name="generator" content="Visual Studio Code" />
+  </head>
+  <body class="page">
+    <main class="main">
+      <section class="advice-card">
+        <h1 class="advice__id">Advice #</h1>
+
+        <p class="advice__quote">""</p>
+
+        <picture class="divider__pic">
+          <source
+            media="(max-width: 400px)"
+            srcset="./src/images/pattern-divider-mobile.svg"
+          />
+          <img
+            src="./src/images/pattern-divider-desktop.svg"
+            alt=""
+            class="divider__img"
+          />
+        </picture>
+
+        <button class="advice__new">
+          <img
+            src="./src/images/icon-dice.svg"
+            alt="Button to generate new advice"
+            title="New advice"
+          />
+        </button>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="attribution__link"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://xuaun.github.io/"
+        target="_blank"
+        class="attribution__link"
+        >João Víctor de Araujo Lima</a
+      >.
+    </footer>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
+  </body>
+</html>

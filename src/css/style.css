@@ -1,0 +1,87 @@
+/* GLOBAL */
+
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  background-color: var(--background-page-color);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.6rem;
+}
+
+/* ADVICE CARD */
+
+.advice-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 54rem;
+  border-radius: 1.5rem;
+  padding: clamp(4rem, 3.718rem + 0.751vw, 4.8rem) clamp(2.4rem, 1.555rem + 2.254vw, 4.8rem) clamp(6.4rem, 6.118rem + 0.751vw, 7.2rem);
+  position: relative;
+  background-color: var(--background-card-color);
+  font-family: var(--text-family);
+  box-shadow: 3rem 5rem 8rem 0rem rgba(0, 0, 0, 10%), 
+}
+
+.advice__id {
+  color: var(--text-id);
+  font-size: var(--text-1-size);
+  font-weight: var(--text-1-weight);
+  letter-spacing: var(--text-1-spacing);
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.advice__quote {
+  color: var(--text-quote);
+  font-size: var(--text-2-size);
+  font-weight: var(--text-2-weight);
+  letter-spacing: var(--text-2-spacing);
+  margin-bottom: clamp(2.4rem, 1.837rem + 1.502vw, 4rem);
+}
+
+.advice__new {
+  background-color: var(--background-btn-color);
+  padding: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3.2rem;
+}
+
+.advice__new:active {
+  box-shadow: 0rem 0rem 4rem 0rem var(--background-btn-color);
+}
+
+/* ATTRIBUTION */
+
+.attribution {
+  font-size: 1.1rem;
+  color: var(--cyan-light);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: hsl(217, 19%, 24%, 80%);
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 2;
+}
+
+.attribution__link {
+  color: var(--green-neon);
+}
+
+.attribution__link:hover,
+.attribution__link:focus {
+  color: hsl(120, 100%, 66%);
+}

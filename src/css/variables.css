@@ -1,0 +1,30 @@
+:root {
+  /* DESIGN SYSTEM */
+  /* COLORS DS */
+  --blue-dark: hsl(219, 22%, 16%);
+  --blue-grayish-dark: hsl(217, 19%, 24%);
+  --blue-grayish: hsl(217, 19%, 38%);
+  --cyan-light: hsl(193, 38%, 86%);
+  --green-neon: hsl(150, 100%, 66%);
+
+  /* TYPOGRAPHY DS */
+  --text-family: "Manrope", sans-serif;
+  /* TEXT PRESET 1 - HEADING */
+  --text-1-size: clamp(1.1rem, 1.03rem + 0.188vw, 1.3rem);
+  --text-1-weight: 800;
+  /* --text-1-height: 1.3rem; */
+  --text-1-spacing: clamp(0.35rem, 0.332rem + 0.047vw, 0.4rem);
+  /* TEXT PRESET 2 - QUOTE */
+  --text-2-size: clamp(2.4rem, 2.259rem + 0.376vw, 2.8rem);
+  --text-2-weight: 800;
+  /* --text-2-height: 2.8rem; */
+  --text-2-spacing: -0.03rem;
+
+  /* PAGE */
+  /* COLORS */
+  --background-page-color: var(--blue-dark);
+  --background-card-color: var(--blue-grayish-dark);
+  --background-btn-color: var(--green-neon);
+  --text-id: var(--green-neon);
+  --text-quote: var(--cyan-light);
+}
